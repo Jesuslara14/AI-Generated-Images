@@ -1,0 +1,99 @@
+body
+{
+    background-color: black;
+}
+
+#board
+{
+    background-color: green;
+    width: 100%;
+}
+
+.page
+{
+    height: 97vh;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+.titlepage
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    background-image: linear-gradient(to bottom, rgb(63, 63, 63) 5%, gray 15%, black);
+}
+
+.selection
+{
+	display: grid;
+	position: relative;
+	grid-template-columns: auto auto auto auto;
+	left: 30%;
+	top: 20px;
+	width: 40%;
+	height: 20%;
+	background-color: gray;
+}
+
+.option
+{
+	float: left;
+	height: 95%;
+	width: fill;
+	border: 4px black solid;
+	background-image: linear-gradient(gold, silver);
+	transition: 1s;
+}
+
+.optionimage
+{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(33, 33, 33);
+	background-size: cover;
+	background-position: center;
+	left: 0;
+	top: 0;
+	transition: 1s;
+	filter: grayscale();
+}
+
+.optiontext
+{
+	position: relative;
+	height: 10%;
+	width: 10%;
+	background-image: linear-gradient(to bottom left, lightgray, gray);
+	text-align: center;
+	border-radius: 6px;;
+	top: -20px;
+	left: 50px;
+	z-index: -1;
+	transition: 1s;
+	font-size: 0px;
+}
+
+.leftBox
+{
+	float: left;
+	margin: 100px 0px 0px 400px;
+	text-align: center;
+}
+
+.rightBox
+{
+	float: right;
+	margin: 150px 350px 0px 0px;
+	width: 350px;
+	height: 200px;
+	background-color: coral;
+	border-radius: 10px;
+	text-align: center;
+}
+

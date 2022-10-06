@@ -1,0 +1,10 @@
+.tb
+{
+    width: 500px;
+    height: 250px;
+    background-image: radial-gradient(darkgray, gray);
+    transition: 1s;
+    border-radius: 10px;
+    border: 4px rgb(174, 127, 9) solid;
+    text-align: center;
+}

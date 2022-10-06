@@ -1,0 +1,42 @@
+.tb:hover
+{
+    transform: scale(120%);
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.option:hover
+{
+	height: 560px;
+	width: 425px;
+	margin: 0px;
+}
+
+.option:active .optionimage
+{
+	transform: scale(150%) translateY(100px);
+	z-index: 2;
+}
+
+.option:hover .optionimage
+{
+	position: relative;
+	height: 325px;
+	width: 90%;
+	background-color: white;
+	left: 5%;
+	top: 20px;
+	filter: none;
+}
+
+.option:hover .optiontext
+{
+	position: relative;
+	height: 120px;
+	width: 86%;
+	background-color: aqua;
+	top: 50px;
+	left: 7%;
+	z-index: 1;
+	font-size: 12px;
+}
